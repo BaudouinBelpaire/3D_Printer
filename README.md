@@ -15,7 +15,8 @@ https://github.com/BaudouinBelpaire/3D_Printer/assets/157626337/6a2e77a8-c60f-49
 ## Bill Of Materials:
 Once the machine designed and simulated on Fusion 360, a [BOM](https://github.com/BaudouinBelpaire/3D_Printer/blob/main/BOM.xlsx) was established to realise the entire assembly. The parts were bought from different suppliers, and the MDF was purchased at Leroy Merlin to manufacture the panels and few other parts.
 
-<img src="https://github.com/BaudouinBelpaire/3D_Printer/assets/157626337/4f2db5c5-96a2-4568-aff9-84f23fdeed17" alt="BOM" width="400"/>
+<img src="https://github.com/BaudouinBelpaire/CoreXY_3D_Printer/assets/157626337/4028acfd-5fec-436c-a800-38e601918752" alt="BOM" width="400"/>
+
 
 ## Electronics:
 The electronics ensure the actuation of the stepper motors according to the sequence of coordinates required to make the part. This one is composed of the 3 stepper motors for the XYZ directions and an additional one for the filament extrusion. The motors are controlled by motor drivers converting the digital pulses into electrical signals rotating the shaft. The calibration of the printer is ensured by mechanical endstops to know the initial position location. Finally, the extrusion and bed temperature are satisfied by a closed-loop system composed of a thermal sensor and heater. Each subsystem is controlled by the Arduino microprocessor which controls the actuators and receives feedbacks from the sensors. The circuit wiring is shown below: 
